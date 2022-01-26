@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+/*  HEADER STYLES */
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #672280;
+}
+
+.header--logo{
+    width: 31.31px;
+    height: 26.52px;
+}
+
+.header--title{
+    color: white;
+}
+
+.header--slogan{
+    color: white;
+}
