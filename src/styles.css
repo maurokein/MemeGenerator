@@ -37,3 +37,54 @@
     font-size: 1rem;
     color: white;
 }
+
+/*  MAIN STYLES */
+
+.form{
+    margin-top: 40px;
+}
+
+.form--input{
+    display: flex;
+    justify-content: center; /* THIS IS A FUCKING SENTENCE TO GET CENTER THE INPUTS  */
+    gap: 30px;
+}
+
+.form--firstinput{
+    width: 460px;
+    height: 70px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    font-size: 35px;
+    text-indent: 10px;
+}
+
+.form--secondinput{
+    width: 460px;
+    height: 70px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    font-size: 35px;
+    text-indent: 10px;
+}
+
+.form--submit{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center; /* THIS IS A FUCKING SENTENCE TO GET CENTER THE SUBMIT BUTTON */
+}
+
+.form--submit__input{
+    width: 950px;
+    height: 70px;
+    font-size: 24px;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border: none;
+    cursor: pointer;
+}
+
+.form--submit__input > i{
+    margin-left: 10px;
+}
