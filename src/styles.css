@@ -88,3 +88,13 @@
 .form--submit__input > i{
     margin-left: 10px;
 }
+
+.form--image{
+    width: 500px;
+    height: auto;
+    display: block; /* FOR TO CENTER AN IMAGE IN THE MIDDLE OF THE PAGE */
+    margin-right: auto; /* THIS IS THE OTHER NECESSARY INSTRUCTION */
+    margin-left: auto; /* AND FOR THE LAST, OBVIOUSLY, THIS IS MANDATORY */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
